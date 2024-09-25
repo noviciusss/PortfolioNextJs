@@ -34,8 +34,8 @@ export function CardDemo() {
                                     React Developer
                                 </h1>
                                 <p className='font-normal text-base text-gray-50 relative my-4'>
-                                    This card is for some special elements, like displaying
-                                    background gifs on hover only.
+                                    Hmm can say already at intermediate level in it. Still long walk
+                                    or run to go.Projects soon.
                                 </p>
                             </div>
                         </div>
@@ -62,8 +62,8 @@ export function CardDemo() {
                                     NextJs Developer
                                 </h1>
                                 <p className='font-normal text-base text-gray-50 relative my-4'>
-                                    This card is for some special elements, like displaying
-                                    background gifs on hover only.
+                                    New to this but will be a pro soon😎.Going to start many and
+                                    middle level projects soon.
                                 </p>
                             </div>
                         </div>
@@ -90,8 +90,8 @@ export function CardDemo() {
                                     Python Developer
                                 </h1>
                                 <p className='font-normal text-base text-gray-50 relative my-4'>
-                                    This card is for some special elements, like displaying
-                                    background gifs on hover only.
+                                    Used to its Tkinter and like libraries.Soon will we trying new
+                                    waters like Ai and ML.Have one middle level Project.
                                 </p>
                             </div>
                         </div>
@@ -118,8 +118,8 @@ export function CardDemo() {
                                     Mern Stack Developer
                                 </h1>
                                 <p className='font-normal text-base text-gray-50 relative my-4'>
-                                    This card is for some special elements, like displaying
-                                    background gifs on hover only.
+                                    Learned it but still in learning phase🤓. Will be starting
+                                    implementation on some real projects soon.
                                 </p>
                             </div>
                         </div>
