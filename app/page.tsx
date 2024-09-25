@@ -1,4 +1,3 @@
-import { CardDemo } from '@/components/Cards';
 import { FirstPage } from '@/components/FirstPage';
 import Header from '@/components/Header';
 import { SecondPage } from '@/components/SecondPage';
