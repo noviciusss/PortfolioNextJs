@@ -33,3 +33,11 @@ body {
     -webkit-backdrop-filter: blur(10px);
     z-index: 0;
 }
+.bg-contact{
+    background-color: #100d25; 
+    z-index: 0;
+}
+.bg-contactBox{
+    background-color: #181434;
+    z-index: 0;
+}
