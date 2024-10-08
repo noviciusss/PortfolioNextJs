@@ -22,8 +22,8 @@ export const FloatingDock = ({
 }) => {
     return (
        <div className="flex flex-col items-center">
-            <h2 className='text-3xl font-bold mb-1 text-center'>Skills</h2>
-            <div className='w-64 h-1 bg-gradient-to-r from-gray-500 to-transparent mb-2'></div>
+            <h2 className='text-3xl font-bold mb-2 text-center'>Skills</h2>
+            <div className='w-64 h-1 bg-gradient-to-r from-gray-500 to-transparent mb-3'></div>
             <FloatingDockDesktop
                 items={items}
                 className={desktopClassName}
