@@ -35,8 +35,6 @@ export const FloatingDock = ({
         </div>
     );
 };
-    );
-};
 
 const FloatingDockMobile = ({
     items,
