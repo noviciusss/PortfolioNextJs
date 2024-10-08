@@ -70,11 +70,9 @@ const FloatingDockMobile = ({
                                 <Link
                                     href={item.href}
                                     key={item.title}
-                                    className='h-10 w-10 rounded-full bg-contact dark:bg-contact flex items-center justify-center'
+                                    className='h-12 w-12 rounded-full bg-contact dark:bg-contact flex items-center justify-center'
                                 >
-                                    <div className='h-4 w-4 text-gray-50 dark:text-neutral-900'>
-                                        {item.icon}
-                                    </div>
+                                    <div className='h-6 w-6 text-gray-50 dark:text-neutral-900'>{item.icon}</div>
                                 </Link>
                             </motion.div>
                         ))}
@@ -83,9 +81,9 @@ const FloatingDockMobile = ({
             </AnimatePresence>
             <button
                 onClick={() => setOpen(!open)}
-                className='h-10 w-10 rounded-full bg-contact dark:bg-contact flex items-center justify-center'
+                className='h-12 w-12 rounded-full bg-contact dark:bg-contact flex items-center justify-center'
             >
-                <IconLayoutNavbarCollapse className='h-5 w-5 text-gray-50 dark:text-neutral-900' />
+                <IconLayoutNavbarCollapse className='h-6 w-6 text-gray-50 dark:text-neutral-900' />
             </button>
         </div>
     );
@@ -104,7 +102,7 @@ const FloatingDockDesktop = ({
             onMouseMove={(e) => mouseX.set(e.pageX)}
             onMouseLeave={() => mouseX.set(Infinity)}
             className={cn(
-                'mx-auto hidden md:flex h-16 gap-4 items-end rounded-2xl bg-contact dark:bg-contact px-4 pb-3',
+                'mx-auto hidden md:flex h-20 gap-5 items-end rounded-2xl bg-contact dark:bg-contact px-5 pb-4',
                 className
             )}
         >
@@ -138,11 +136,11 @@ function IconContainer({
         return val - bounds.x - bounds.width / 2;
     });
 
-    const widthTransform = useTransform(distance, [-150, 0, 150], [40, 80, 40]);
-    const heightTransform = useTransform(distance, [-150, 0, 150], [40, 80, 40]);
+    const widthTransform = useTransform(distance, [-150, 0, 150], [48, 96, 48]);
+    const heightTransform = useTransform(distance, [-150, 0, 150], [48, 96, 48]);
 
-    const widthTransformIcon = useTransform(distance, [-150, 0, 150], [20, 40, 20]);
-    const heightTransformIcon = useTransform(distance, [-150, 0, 150], [20, 40, 20]);
+    const widthTransformIcon = useTransform(distance, [-150, 0, 150], [24, 48, 24]);
+    const heightTransformIcon = useTransform(distance, [-150, 0, 150], [24, 48, 24]);
 
     const width = useSpring(widthTransform, {
         mass: 0.1,
