@@ -29,7 +29,9 @@ const ExperienceTimeline = () => {
                     </VerticalTimelineElement>
                 </VerticalTimeline>
             </div>
-            <div className='flex justify-center items-center mt-8'>
+            <div className='flex flex-col items-center mt-8'>
+                <h2 className='text-3xl font-bold mb-2 text-center'>Skills</h2>
+                <div className='w-64 h-1 bg-gradient-to-r from-gray-500 to-transparent mb-4'></div>
                 <Skills />
             </div>
         </div>
