@@ -26,7 +26,12 @@ export default function Home() {
                 <StarsCanvas />
                 <div className='absolute inset-0'>
                     <ExperienceTimeline />
-                    <SkillsPage />
+                </div>
+            </div>
+             <div className='relative h-screen'>
+                <StarsCanvas />
+                <div className='absolute inset-0'>
+                   <SkillsPage />
                 </div>
             </div>
             <div className='relative h-screen'>
