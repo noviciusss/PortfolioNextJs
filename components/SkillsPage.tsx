@@ -50,8 +50,8 @@ const projects = [
 
 const SkillsPage: React.FC = () => {
     return (
-        <div className="flex items-center justify-center min-h-screen p-4">
-            <div className="max-w-4xl w-full text-center">
+        <div className="flex items-center justify-center min-h-screen p-4 m-4">
+            <div className="max-w-4xl w-full ">
                 <div className="mb-8">
                     <h3 className='text-2xl font-semibold mb-2 text-gray-600'>My Work</h3>
                     <h1 className='text-6xl font-extrabold mb-4'>Projects.</h1>
