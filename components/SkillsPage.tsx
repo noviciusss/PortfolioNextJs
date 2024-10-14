@@ -52,6 +52,7 @@ const SkillsPage: React.FC = () => {
     return (
         <div className="flex items-center justify-center min-h-screen p-4">
             <div className="grid">
+            <div >
                  <h3 className='text-2xl font-semibold p-4 text-gray-600'>My Work</h3>
                     <h1 className='text-6xl font-extrabold pr-2 pt-1 pb-2 pl-3'>Projects.</h1>
                 <p className="text-base text-gray-500 p-4 w-full flex">Dive into my digital portfolio showcasing real-world projects that highlight my skills. 
@@ -67,6 +68,7 @@ const SkillsPage: React.FC = () => {
                     />
                 ))}
             </div>
+                </div>
         </div>
     );
 };
