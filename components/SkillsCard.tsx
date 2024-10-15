@@ -55,7 +55,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                             className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
                         >
                             <Image
-                                src='/github-icon.png'
+                                src='@/components/assests/icons8-github-50.png'
                                 alt='source code'
                                 width={20}
                                 height={20}
