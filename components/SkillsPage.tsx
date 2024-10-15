@@ -8,7 +8,7 @@ const projects = [
         name: 'Portfolio',
         description: 'Sleek, interactive portfolio crafted with Next.js, TypeScript, and Tailwind CSS. Showcases projects and skills through a modern, responsive design with smooth animations.',
         tags: [{ name: 'NextJs', color: 'text-green-500' },{name:'tailwind',color: 'text-pink-500'},{name:'Typescript',color:'text-blue-700'}],
-        image: '@/components/assests/PorfolioScreen.png';',
+        image: '@/components/assests/PorfolioScreen.png',
         sourceCodeLink: 'https://github.com/noviciusss/PortfolioNextJs',
     },
     {
