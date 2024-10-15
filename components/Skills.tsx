@@ -84,7 +84,7 @@ export function Skills() {
         {
             title: 'Git',
             icon: (
-                <IconBrandGitMerge className='h-full w-full text-neutral-500 dark:text-neutral-300' />
+                <IconGitMerge className='h-full w-full text-neutral-500 dark:text-neutral-300' />
             ),
             href: '#',
         },
