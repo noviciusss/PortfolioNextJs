@@ -31,7 +31,6 @@ export default function Home() {
              <div className='relative'>
                 <StarsCanvas />
                    <SkillsPage />
-                </div>
             </div>
             <div className='relative h-screen'>
                 <StarsCanvas />
