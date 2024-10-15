@@ -5,42 +5,42 @@ import ProjectCard from '@/components/SkillsCard';
 
 const projects = [
     {
-        name: 'Project 1',
-        description: 'This is a description of Project 1',
-        tags: [{ name: 'react', color: 'text-blue-500' }],
-        image: '/path-to-image.jpg',
-        sourceCodeLink: 'https://github.com/yourusername/project1',
+        name: 'Portfolio',
+        description: 'Sleek, interactive portfolio crafted with Next.js, TypeScript, and Tailwind CSS. Showcases projects and skills through a modern, responsive design with smooth animations.',
+        tags: [{ name: 'NextJs', color: 'text-green-500' },{name:'tailwind',color: 'text-pink-500'},{name:'Typescript',color:'text-blue-700'}],
+        image: '@/components/assests/PorfolioScreen.png';',
+        sourceCodeLink: 'https://github.com/noviciusss/PortfolioNextJs',
     },
     {
-        name: 'Project 2',
+        name: '',
         description: '',
         tags: [],
         image: '',
         sourceCodeLink: '',
     },
     {
-        name: 'Project 3',
+        name: '',
         description: '',
         tags: [],
         image: '',
         sourceCodeLink: '',
     },
     {
-        name: 'Project 4',
+        name: '',
         description: '',
         tags: [],
         image: '',
         sourceCodeLink: '',
     },
     {
-        name: 'Project 5',
+        name: '',
         description: '',
         tags: [],
         image: '',
         sourceCodeLink: '',
     },
     {
-        name: 'Project 6',
+        name: '',
         description: '',
         tags: [],
         image: '',
@@ -50,7 +50,7 @@ const projects = [
 
 const SkillsPage: React.FC = () => {
     return (
-        <div className="flex items-center justify-center min-h-screen p-4 m-4 relative">
+        <div className="flex items-center justify-center min-h-screen p-4  relative">
             <div className="max-w-6xl w-full">
                 <div className="mb-12">
                     <h3 className='text-2xl font-semibold mb-2 text-gray-600'>My Work</h3>
