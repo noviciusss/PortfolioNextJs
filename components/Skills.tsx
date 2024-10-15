@@ -9,6 +9,9 @@ import {
     IconBrandPython,
     IconBrandPrisma,
     IconBrandMongodb,
+    IconBrandDocker,
+    IconGitMerge,
+    IconBrandFigma,
 } from '@tabler/icons-react';
 
 export function Skills() {
@@ -64,7 +67,28 @@ export function Skills() {
             ),
             href: '#',
         },
+          {
+            title: 'Figma',
+            icon: (
+                <IconBrandFigma className='h-full w-full text-neutral-500 dark:text-neutral-300' />
+            ),
+            href: '#',
+        },
         {
+            title: 'Docker',
+            icon: (
+                <IconBrandDocker className='h-full w-full text-neutral-500 dark:text-neutral-300' />
+            ),
+            href: '#',
+        },
+        {
+            title: 'Git',
+            icon: (
+                <IconBrandGitMerge className='h-full w-full text-neutral-500 dark:text-neutral-300' />
+            ),
+            href: '#',
+        },
+         {
             title: 'GitHub',
             icon: (
                 <IconBrandGithub className='h-full w-full text-neutral-500 dark:text-neutral-300' />
