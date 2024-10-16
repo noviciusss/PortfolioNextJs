@@ -118,6 +118,7 @@ export default function Contact() {
                     <div className='globe-container'>
                         <div className='fixed-size'>
                             <GlobeDemo />
+                            {/* chnages to see */}
                         </div>
                     </div>
                 </div>
