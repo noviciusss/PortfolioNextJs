@@ -47,7 +47,11 @@ body {
 }
 
 header {
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
     border-radius: 9999px; /* Full border radius */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+.bg-transparent {
+    background-color: transparent;
 }
