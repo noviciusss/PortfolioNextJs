@@ -41,3 +41,6 @@ body {
     background-color: #181434;
     z-index: 0;
 }
+header {
+    transition: transform 0.3s ease-in-out;
+}
