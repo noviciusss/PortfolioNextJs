@@ -54,7 +54,10 @@ export default function Contact() {
     };
 
     return (
-        <div className='flex h-screen items-center justify-center'>
+        <div
+            id='contact'
+            className='flex h-screen items-center justify-center'
+        >
             <div className='flex w-full h-screen max-w-7xl mx-auto'>
                 <div className='w-2/4 flex items-center p-4'>
                     <div className='bg-contact p-8 rounded-lg shadow-xl h-auto w-full'>
@@ -112,7 +115,7 @@ export default function Contact() {
                 </div>
 
                 <div className='w-2/4 h-screen flex items-center justify-center'>
-                    <div className='h-full w-full flex items-center justify-center'>
+                    <div className='h-[40rem] w-[40rem] flex items-center justify-center'>
                         <GlobeDemo />
                     </div>
                 </div>

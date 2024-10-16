@@ -4,7 +4,10 @@ import { CardDemo } from './Cards';
 // Updated SecondPage Component
 export function SecondPage() {
     return (
-        <div className='space-y-8'>
+        <div
+            id='about'
+            className='space-y-8'
+        >
             <div className='relative border rounded-lg max-w-3xl  ml-20 mr-[-30rem] shadow-lg bg-dark'>
                 <div className='absolute inset-0 bg-blur'></div>
                 <div className='relative z-10'>

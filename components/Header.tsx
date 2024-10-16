@@ -26,7 +26,7 @@ export default function Header() {
                     </li>
                     <li>
                         <a
-                            href='#projects'
+                            href='#project'
                             className='hover:text-gray-300'
                         >
                             Projects
