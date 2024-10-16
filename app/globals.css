@@ -33,14 +33,21 @@ body {
     -webkit-backdrop-filter: blur(10px);
     z-index: 0;
 }
-/* Add this to your CSS file */
-.bg-contact {
+.bg-contact{
+    background-color: #100d25; 
+    z-index: 0;
+}
+.bg-contactBox{
+    background-color: #181434;
+    z-index: 0;
+}
+.header-background {
     background-color: #100d25;
     z-index: 50;
 }
 
 header {
     transition: transform 0.3s ease-in-out;
-    border-radius: 9999px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border-radius: 9999px; /* Full border radius */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
 }
