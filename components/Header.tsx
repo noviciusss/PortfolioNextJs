@@ -12,7 +12,7 @@ export default function Header() {
             if (window.scrollY > 100) {
                 setIsVisible(true);
             } else {
-                setIsVisible(false);
+                setIsVisible(true);
             }
         };
 
@@ -26,7 +26,7 @@ export default function Header() {
         <header
             className={`fixed top-0 left-0 w-full z-50 transition-transform duration-300 ${
                 isVisible ? 'translate-y-0' : '-translate-y-full'
-            } bg-contact`}
+            } bg-contact rounded-full shadow-lg`}
         >
             <div className='flex justify-between max-w-8xl pt-2 w-full text-white'>
                 <div className='flex items-center ml-2'>
