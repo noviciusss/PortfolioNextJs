@@ -115,11 +115,8 @@ export default function Contact() {
                 </div>
 
                 <div className='w-2/4 h-screen flex items-center justify-center'>
-                    <div className='globe-container'>
-                        <div className='fixed-size'>
-                            <GlobeDemo />
-                            {/* chnages to see */}
-                        </div>
+                    <div className='static-globe'>
+                        <GlobeDemo />
                     </div>
                 </div>
             </div>
