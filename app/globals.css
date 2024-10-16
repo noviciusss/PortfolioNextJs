@@ -41,3 +41,15 @@ body {
     background-color: #181434;
     z-index: 0;
 }
+.globe-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.fixed-size {
+    height: 40rem;
+    width: 40rem;
+}
