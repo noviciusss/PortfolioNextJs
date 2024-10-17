@@ -24,7 +24,7 @@ export default function Home() {
             </div>
             <div className='relative h-screen'>
                 <StarsCanvas />
-                <div className='absolute inset-0'>
+                <div className='absolute inset-0 sm:mt-8'>
                     <ExperienceTimeline />
                 </div>
             </div>

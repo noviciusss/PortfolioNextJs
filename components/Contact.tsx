@@ -59,7 +59,7 @@ export default function Contact() {
             className='flex h-screen items-center justify-center'
         >
             <div className='flex w-full h-screen max-w-7xl mx-auto'>
-                <div className='w-2/4 flex items-center p-4'>
+                <div className='w-full sm:w-full md:w-2/4 flex items-center p-4'>
                     <div className='bg-contact p-8 rounded-lg shadow-xl h-auto w-full'>
                         <p className='text-[16px] text-secondary uppercase tracking-wider mb-2'>
                             Get in Touch
