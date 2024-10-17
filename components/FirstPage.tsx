@@ -13,13 +13,20 @@ function FirstPage() {
                         <h1 className='font-bold text-6xl text-center sm:text-left'>
                             HI, I am Samarth P. Singh
                         </h1>
-                        <p className='text-3xl font-semibold mt-4 ml-20 pl-20 text-left sm:text-left'>
+                        <p className='text-3xl font-semibold mt-4 text-center sm:text-left'>
                             Welcome to my Portfolio!
                         </p>
+                        <a
+                            href='#contact'
+                            className='mt-4 px-4 py-2 text-white rounded-md border border-white font-semibold
+                            hover:bg-[#090e23] hover:text-white transition-colors duration-300 sm:hidden'
+                        >
+                            Contact Me
+                        </a>
                     </div>
                 </div>
             </div>
-            <div className='absolute bottom-15 mt-10 ml-1 pt-5 sm:mt-0 sm:ml-0 sm:pt-0 sm:bottom-10'>
+            <div className='absolute bottom-15 mt-10 ml-1 pt-5 sm:mt-0 sm:ml-0 sm:pt-0 sm:bottom-10 hidden sm:block'>
                 <a
                     href='#contact'
                     className='px-4 py-2 text-white rounded-md border border-white font-semibold
