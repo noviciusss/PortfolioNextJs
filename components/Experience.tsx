@@ -7,7 +7,7 @@ import { Skills } from './Skills';
 const ExperienceTimeline = () => {
     return (
         <div className='flex flex-col'>
-            <div className='container mx-auto p-4'>
+            <div className='container mx-auto p-4 sm:mt-8'>
                 <h2 className='text-3xl font-bold mb-4 text-center'>Experience</h2>
                 <VerticalTimeline>
                     <VerticalTimelineElement

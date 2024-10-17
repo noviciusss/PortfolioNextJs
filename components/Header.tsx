@@ -6,13 +6,14 @@ import profileImage from '@/components/assests/profile1.jpg';
 
 export default function Header() {
     const [isVisible, setIsVisible] = useState(false);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
             if (window.scrollY > 100) {
                 setIsVisible(true);
             } else {
-                setIsVisible(false);
+                setIsVisible(true);
             }
         };
 
@@ -39,7 +40,7 @@ export default function Header() {
                     />
                     <h1 className='text-3xl font-bold ml-1'>Noviciusss</h1>
                 </div>
-                <nav className='text-xl mr-4 font-semibold'>
+                <nav className='hidden md:flex text-xl mr-4 font-semibold'>
                     <ul className='flex space-x-6'>
                         <li>
                             <a
@@ -67,7 +68,38 @@ export default function Header() {
                         </li>
                     </ul>
                 </nav>
+                <button
+                    className='md:hidden flex items-center justify-center h-12 w-12 rounded-full bg-contact dark:bg-contact'
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                >
+                    ☰
+                </button>
             </div>
+            {isMenuOpen && (
+                <div className='md:hidden flex flex-col items-center mt-4'>
+                    <a
+                        href='#about'
+                        className='py-2 text-white hover:text-gray-300'
+                        onClick={() => setIsMenuOpen(false)}
+                    >
+                        About
+                    </a>
+                    <a
+                        href='#project'
+                        className='py-2 text-white hover:text-gray-300'
+                        onClick={() => setIsMenuOpen(false)}
+                    >
+                        Projects
+                    </a>
+                    <a
+                        href='#contact'
+                        className='py-2 text-white hover:text-gray-300'
+                        onClick={() => setIsMenuOpen(false)}
+                    >
+                        Contact
+                    </a>
+                </div>
+            )}
         </header>
     );
 }

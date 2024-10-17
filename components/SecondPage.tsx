@@ -8,7 +8,7 @@ export function SecondPage() {
             id='about'
             className='space-y-8'
         >
-            <div className='relative border rounded-lg max-w-3xl  ml-20 mr-[-30rem] shadow-lg bg-dark'>
+            <div className='relative border rounded-lg max-w-3xl mx-auto sm:ml-20 sm:mr-[-30rem] shadow-lg bg-dark'>
                 <div className='absolute inset-0 bg-blur'></div>
                 <div className='relative z-10'>
                     <h3 className='text-2xl font-semibold p-4 text-gray-600'>Introduction</h3>

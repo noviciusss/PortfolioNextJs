@@ -1,6 +1,6 @@
 'use client';
 
-export function FirstPage() {
+function FirstPage() {
     return (
         <section className='relative w-full h-screen mx-auto flex items-center justify-center text-white'>
             <div className='absolute inset-0 flex flex-col items-center justify-center px-4 sm:px-0'>
@@ -19,7 +19,7 @@ export function FirstPage() {
                     </div>
                 </div>
             </div>
-            <div className='absolute bottom-15 mt-10 ml-1 pt-5'>
+            <div className='absolute bottom-15 mt-10 ml-1 pt-5 sm:mt-0 sm:ml-0 sm:pt-0 sm:bottom-10'>
                 <a
                     href='#contact'
                     className='px-4 py-2 text-white rounded-md border border-white font-semibold
@@ -31,3 +31,5 @@ export function FirstPage() {
         </section>
     );
 }
+
+export default FirstPage;

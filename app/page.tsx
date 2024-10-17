@@ -1,6 +1,6 @@
 import Contact from '@/components/Contact';
 import ExperienceTimeline from '@/components/Experience';
-import { FirstPage } from '@/components/FirstPage';
+import FirstPage from '@/components/FirstPage';
 import Header from '@/components/Header';
 import { SecondPage } from '@/components/SecondPage';
 import SkillsPage from '@/components/SkillsPage';
@@ -28,9 +28,9 @@ export default function Home() {
                     <ExperienceTimeline />
                 </div>
             </div>
-             <div className='relative'>
+            <div className='relative'>
                 <StarsCanvas />
-                   <SkillsPage />
+                <SkillsPage />
             </div>
             <div className='relative h-screen'>
                 <StarsCanvas />
