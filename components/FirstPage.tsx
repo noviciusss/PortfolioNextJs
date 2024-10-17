@@ -13,7 +13,7 @@ function FirstPage() {
                         <h1 className='font-bold text-6xl text-center sm:text-left'>
                             HI, I am Samarth P. Singh
                         </h1>
-                        <p className='text-3xl font-semibold mt-4 text-center sm:text-left md:ml-10 lg:ml-20'>
+                        <p className='text-3xl font-semibold mt-4 text-center sm:text-left md:ml-10 md:pl-10 lg:ml-20 lg:pl-20'>
                             Welcome to my Portfolio!
                         </p>
                         <a

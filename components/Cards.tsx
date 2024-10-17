@@ -12,7 +12,7 @@ export function CardDemo() {
     };
     return (
         <div className='flex justify-center items-center'>
-            <div className='grid grid-cols-2 gap-8 lg:grid-cols-4'>
+            <div className='grid grid-cols-1 gap-8 lg:grid-cols-4'>
                 <Tilt options={defaultOptions}>
                     <div
                         className='max-w-xs w-full'
