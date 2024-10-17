@@ -22,7 +22,7 @@ export default function Home() {
                     <SecondPage />
                 </div>
             </div>
-            <div className='relative h-screen sm:mt-16'>
+            <div className='relative h-screen '>
                 <StarsCanvas />
                 <div className='absolute inset-0'>
                     <ExperienceTimeline />
@@ -30,9 +30,7 @@ export default function Home() {
             </div>
             <div className='relative'>
                 <StarsCanvas />
-                <div className='absolute inset-0'>
-                    <SkillsPage />
-                </div>
+                <SkillsPage />
             </div>
             <div className='relative h-screen'>
                 <StarsCanvas />
