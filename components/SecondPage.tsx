@@ -12,7 +12,9 @@ export function SecondPage() {
                 <div className='absolute inset-0 bg-blur'></div>
                 <div className='relative z-10'>
                     <h3 className='text-2xl font-semibold p-4 text-gray-600'>Introduction</h3>
-                    <h1 className='text-6xl font-extrabold pr-2 pt-1 pb-2 pl-3'>Overview.</h1>
+                    <h1 className='text-6xl font-extrabold pr-2 pt-1 pb-2 pl-3 sm:text-white'>
+                        Overview.
+                    </h1>
                     <p className='text-base text-gray-500 p-4'>
                         Hey there! I&apos;m a second-year B.Tech student in Computer Science and
                         Engineering with a focus on AI and ML at VIT Bhopal. I&apos;m super
