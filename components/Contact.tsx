@@ -114,7 +114,7 @@ export default function Contact() {
                     </div>
                 </div>
 
-                <div className='w-2/4 sm:flex md:flex h-screen flex items-center justify-center'>
+                <div className='hidden sm:hidden md:flex w-2/4 h-screen items-center justify-center'>
                     <div className='h-[40rem] w-[40rem] flex items-center justify-center'>
                         <GlobeDemo />
                     </div>
