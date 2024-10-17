@@ -8,8 +8,8 @@ const ExperienceTimeline = () => {
     return (
         <div className='flex flex-col'>
             <div className='container mx-auto p-4 sm:mt-8 mt-16'>
-                <h2 className='text-3xl font-bold mb-4 text-center'>Experience</h2>
-                <VerticalTimeline>
+                <h2 className='text-3xl font-bold mb-4 text-center sm:block hidden'>Experience</h2>
+                <VerticalTimeline className='sm:block hidden'>
                     <VerticalTimelineElement
                         className='vertical-timeline-element--work'
                         contentStyle={{ background: 'rgb(29, 24, 54)', color: '#fff' }}
