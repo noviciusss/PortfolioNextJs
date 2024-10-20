@@ -8,11 +8,11 @@ export function SecondPage() {
             id='about'
             className='space-y-8'
         >
-            <div className='relative border rounded-lg max-w-3xl mx-auto sm:ml-20 sm:mr-[-30rem] shadow-lg bg-dark'>
+            <div className='relative md:border md:rounded-lg max-w-3xl mx-auto sm:ml-20 sm:mr-[-30rem] shadow-lg bg-dark'>
                 <div className='absolute inset-0 bg-blur'></div>
                 <div className='relative z-10'>
                     <h3 className='text-2xl font-semibold p-4 text-gray-600'>Introduction</h3>
-                    <h1 className='text-6xl font-extrabold pr-2 pt-1 pb-2 pl-3 sm:text-white'>
+                    <h1 className='text-6xl text-white font-extrabold pr-2 pt-1 pb-2 pl-3 sm:text-white'>
                         Overview.
                     </h1>
                     <p className='text-base text-gray-500 p-4'>
