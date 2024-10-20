@@ -76,7 +76,7 @@ export default function Header() {
                 </button>
             </div>
             {isMenuOpen && (
-                <div className='md:hidden flex flex-col items-center mt-4'>
+                <div className='md:hidden flex flex-col items-center mt-4 bg-contact'>
                     <a
                         href='#about'
                         className='py-2 text-white hover:text-gray-300'
