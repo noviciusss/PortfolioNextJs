@@ -2,7 +2,7 @@
 
 import React from 'react';
 import ProjectCard from '@/components/SkillsCard';
-import { color } from 'framer-motion';
+
 
 const projects = [
     {
